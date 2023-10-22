@@ -1,0 +1,337 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "cursive";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/* Main CSS */
+.logo {
+  width: 300px;
+  height: 100px;
+}
+
+/*---------header----------*/
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/monument_valley8.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header-contents {
+  margin-bottom: 180px;
+  text-align: center;
+}
+.header-contents h1 {
+  font-size: 8vmin;
+  padding-bottom: 50px;
+  color: #ffc857;
+}
+.header-contents h2 {
+  font-size: 4vmin;
+  color: whitesmoke;
+}
+
+/* .line {
+    width: 200px;
+    height: 3px;
+    background: #EDAFB8;
+    margin: 10px auto;
+} */
+
+.btn {
+  background: #ffc857;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: whitesmoke;
+  border-style: hidden;
+}
+.btn:hover {
+  background: #b86f52;
+}
+
+/*---------second----------*/
+.second-page {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/monument_valley.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-page .col1 {
+  margin-left: 5%;
+  font-size: 3vmin;
+  color: #ffc857;
+  float: left;
+  width: 30%;
+}
+.second-page .col2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2vmin;
+  color: whitesmoke;
+  float: left;
+  width: 40%;
+}
+/*---------Thild----------*/
+.third-page {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/Arches_NP.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.third-page .title {
+  color: #ffc857;
+  font-size: 8vmin;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-page .column {
+  position: relative;
+  float: left;
+  width: calc(
+    32% - 10px
+  ); /* Three image containers with equal margin and padding */
+  padding: 5px;
+  margin-left: 20px;
+}
+
+/* Clearfix (clear floats) */
+.third-page .row::after {
+  clear: both;
+  display: table;
+}
+.third-page .column .content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  font-size: 2.5vmin;
+}
+
+/*for chevron-down V transparent button*/
+.chevron-down-btn {
+  padding: 100px 20px;
+  border-radius: 30px;
+  color: #ffc857;
+  border-style: hidden;
+}
+.chevron-down-btn:hover {
+  color: #b86f52;
+}
+
+.third-page .btn {
+  margin-bottom: 5%;
+}
+
+/*---------Fourth----------*/
+.fourth-page {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/monument_valley2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fourth-page .fourth-col1 {
+  margin-left: 5%;
+  font-size: 3vmin;
+  color: #ffc857;
+  float: left;
+  width: 40%;
+  margin-bottom: 30%;
+}
+.fourth-page .fourth-col2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2vmin;
+  color: whitesmoke;
+  float: left;
+  width: 40%;
+  margin-bottom: 10%;
+}
+
+/*---------Five----------*/
+
+.fifth-page {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/grand_canyon2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100px 100px, #757780, #545f66);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+h1,
+p {
+  margin: 6px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffc857;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*---------Six----------*/
+.sixth-page {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/monument_valley11.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sixth-page .container {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+.sixth-page .container img {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+  background-color: grey;
+  margin-bottom: 10%;
+  margin-top: 20%;
+ 
+}
+.sixth-page .container {
+  display: block;
+  color:#EFEA5A;
+  font: 1em sans-serif;
+}
+
+/*---------Seven----------*/
+.seventh-page .imageContainer{
+  display: flex;
+}
+.leftArrow{
+  position: absolute;
+  left: 0%;
+  margin-top: -9%;
+}
+.rightArrow{
+  position: absolute;
+  right: 0%;
+  margin-top: -9%;
+}
+
+/*---------Eight----------*/
+#page_footer{
+  background: linear-gradient(rgba(237, 241, 245, 0.8), rgba(241, 236, 236, 0.838)), url(../images/monument_valley9.jpeg);
+  background-position: center;
+
+  padding:300px;
+}
+
+#page_footer .col1 {
+  margin-left: 5%;
+  font-size: 3vmin;
+  color: #ffc857;
+  float: left;
+  width: 30%;
+
+  margin-top: 3%;
+}
+#page_footer .col2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2vmin;
+  color: whitesmoke;
+  float: left;
+  width: 40%;
+}
+
+#footerTitle{
+  margin-top: -10%;
+}
+
+#textAreaAndButton{
+  margin-bottom: 20%;
+
+}
+#submitButton{
+  background-color: gold;
+  height:40px;
+  width: 90px;
+  display: block;
+}
