@@ -30,6 +30,10 @@ ul {
   height: 100px;
 }
 
+textarea {
+  resize: none;
+}
+
 /*---------header----------*/
 header {
   width: 100vw;
@@ -56,13 +60,6 @@ header {
   font-size: 4vmin;
   color: whitesmoke;
 }
-
-/* .line {
-    width: 200px;
-    height: 3px;
-    background: #EDAFB8;
-    margin: 10px auto;
-} */
 
 .btn {
   background: #ffc857;
@@ -254,10 +251,9 @@ p {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .sixth-page .container {
   vertical-align: top;
@@ -272,66 +268,70 @@ p {
   background-color: grey;
   margin-bottom: 10%;
   margin-top: 20%;
- 
 }
 .sixth-page .container {
   display: block;
-  color:#EFEA5A;
+  color: #efea5a;
   font: 1em sans-serif;
 }
 
 /*---------Seven----------*/
-.seventh-page .imageContainer{
+.seventh-page .imageContainer {
   display: flex;
 }
-.leftArrow{
+.leftArrow {
+  color: #ffc857;
+  border-radius: 30px;
+  border-style: hidden;
   position: absolute;
   left: 0%;
   margin-top: -9%;
 }
-.rightArrow{
+.rightArrow {
+  color: #ffc857;
+  border-radius: 30px;
+  border-style: hidden;
   position: absolute;
   right: 0%;
   margin-top: -9%;
 }
 
+.leftArrow:hover {
+  background: #b86f52;
+}
+.rightArrow:hover {
+  background: #b86f52;
+}
+
 /*---------Eight----------*/
-#page_footer{
-  background: linear-gradient(rgba(237, 241, 245, 0.8), rgba(241, 236, 236, 0.838)), url(../images/monument_valley9.jpeg);
+.page_footer {
+  width: 100vw;
+  height: 100vh;
+  background: #93a8ac;
   background-position: center;
-
-  padding:300px;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#page_footer .col1 {
-  margin-left: 5%;
-  font-size: 3vmin;
-  color: #ffc857;
-  float: left;
-  width: 30%;
-
-  margin-top: 3%;
+.footerLeft {
+  font-style: italic;
+  color: black;
+  margin-left: 0%;
 }
-#page_footer .col2 {
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 2vmin;
+.footerRight {
+  margin: 16%;
+}
+
+#submitButton {
+  background: #ffc857;
+  padding: 10px 20px;
+  border-radius: 30px;
   color: whitesmoke;
-  float: left;
-  width: 40%;
+  border-style: hidden;
 }
-
-#footerTitle{
-  margin-top: -10%;
-}
-
-#textAreaAndButton{
-  margin-bottom: 20%;
-
-}
-#submitButton{
-  background-color: gold;
-  height:40px;
-  width: 90px;
-  display: block;
+#submitButton:hover {
+  background: #b86f52;
 }
