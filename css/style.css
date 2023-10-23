@@ -306,8 +306,8 @@ p {
 /*---------Eight----------*/
 .page_footer {
   width: 100vw;
-  height: 100vh;
-  background: #93a8ac;
+  height: 80vh;
+  background: url(../images/monument_valley7.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
